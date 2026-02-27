@@ -1,5 +1,4 @@
 # Study-Planner-Generator
-# AI Study Planner
 
 ## Problem
 Students struggle to prioritize subjects efficiently before exams, leading to last-minute stress and poor time management.
