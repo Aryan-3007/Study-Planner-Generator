@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+
+<div class="card center">
+    <h1>Smart Study Planner</h1>
+    <p>Create your personalized exam preparation plan</p>
+
+    <label>Your Name</label>
+    <input id="name">
+
+    <label>Degree</label>
+    <select id="degree">
+        <option value="">Select your degree</option>
+        <option>Engineering</option>
+        <option>Arts</option>
+        <option>Commerce</option>
+        <option>Science</option>
+        <option>Other</option>
+    </select>
+
+    <label>Hours you can study daily</label>
+    <input type="number" id="hours">
+
+    <button onclick="saveUser()">Continue</button>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
